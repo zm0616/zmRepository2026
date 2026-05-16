@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>springai_demo</module>
+        <module>springai_chat</module>
     </modules>
 
 </project>
