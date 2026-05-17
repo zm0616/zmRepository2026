@@ -14,6 +14,8 @@ import org.springframework.context.annotation.Configuration;
 public class ChatApiConfig {
     @Bean
     public ChatClient chatClient(ChatClient.Builder chatClientBuilder){
-        return chatClientBuilder.defaultSystem("你是聪明的人工智能小玩家，晓明").build();
+        return chatClientBuilder
+                .defaultSystem("你是聪明的人工智能小玩家，晓明.")  // 默认系统提示 === 配置默认角色
+                .build();
     }
 }
