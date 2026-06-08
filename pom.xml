@@ -11,6 +11,8 @@
     <modules>
         <module>springai_demo</module>
         <module>springai_chat</module>
+        <module>springai_function</module>
+        <module>springai_alibaba</module>
     </modules>
 
 </project>
