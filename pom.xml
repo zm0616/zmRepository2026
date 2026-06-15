@@ -14,6 +14,7 @@
         <module>springai_function</module>
         <module>springai_alibaba</module>
         <module>springai_other</module>
+        <module>springai_rag</module>
     </modules>
 
 </project>
