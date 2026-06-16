@@ -48,7 +48,7 @@ public class ResumeScreenController {
     public String agent(@RequestParam("query") String query){
         //根据输入的消息在vectorStore进行检索
         List<Document> documents = vectorStore.similaritySearch(query);
-        //提取信息
+        //提取信息，传给大模型的参数数据
         String info = "";
         if (documents.size()>0) {
             info = documents.get(0).getContent();

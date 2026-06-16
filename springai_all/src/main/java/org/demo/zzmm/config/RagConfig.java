@@ -47,6 +47,7 @@ public class RagConfig {
         return simpleVectorStore;
     }
 
+    //函数的注册
     @Bean
     @Description("函数：xx是否有资格进行面试")
     public Function<RecruitServiceFunction.Request, RecruitServiceFunction.Response> recruitServiceFunction(){
